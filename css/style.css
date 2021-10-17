@@ -2,10 +2,12 @@
 *{
 	font-family: 'Noto Sans Mono', monospace;
 }
+
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #0099ff;
 }
+
 h1 {
 	font-family: 'Covered By Your Grace', cursive;
 	font-size: 70px;
@@ -16,12 +18,13 @@ img {
 	border-radius: 50%;
 }
 
-ul{
-	list-style: none;
-	padding: 0;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-#landing, #gallery {
+#landing, 
+#gallery {
 	height: 80vh;
 	display: flex;
 	flex-direction: column;
