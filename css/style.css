@@ -2,10 +2,46 @@
 *{
 	font-family: 'Noto Sans Mono', monospace;
 }
- h2{
+h2 {
 	font-family: 'Josefin Sans', sans-serif;
+	color: #0066ff;
 }
 h1 {
 	font-family: 'Covered By Your Grace', cursive;
 	font-size: 70px;
+}
+
+img {
+	width: 350px;
+	border-radius: 50%;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+#landing, #gallery {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tools {
+  padding: 25px;
+  height: 200px;
+  border: 5px solid #f2f2f2;
+  margin: 20px;
+  width: 75%;
+  color: white;
+}
+
+.nav-link {
+	text-transform: uppercase;
+}
+
+html {
+	scroll-behavior: smooth;
 }
